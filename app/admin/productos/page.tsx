@@ -185,7 +185,7 @@ export default function ProductosPage() {
       reparacion: 'Reacondicionado',
     };
     return (
-      <span className={`px-2 py-1 rounded-full text-xs font-medium ${styles[type as keyof typeof styles] || 'bg-gray-100'}`}>
+      <span className={`px-2 py-1 rounded-full text-xs font-medium ${styles[type as keyof typeof styles] || 'bg-red-300'}`}>
         {labels[type as keyof typeof labels] || type}
       </span>
     );
