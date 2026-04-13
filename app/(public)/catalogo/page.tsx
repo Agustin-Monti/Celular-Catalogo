@@ -512,7 +512,7 @@ export default function CatalogoPage() {
                     <button
                       onClick={goToPrevPage}
                       disabled={currentPage === 1}
-                      className="p-2 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                      className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                     >
                       <ChevronLeft size={20} />
                     </button>
@@ -522,7 +522,7 @@ export default function CatalogoPage() {
                         <button
                           key={page}
                           onClick={() => goToPage(page)}
-                          className={`min-w-[40px] h-10 px-3 rounded-lg font-medium transition-all duration-200 ${
+                          className={`min-w-[44px] h-11 px-3 rounded-lg font-medium transition-all duration-200 ${
                             currentPage === page
                               ? 'bg-[#0A2B4E] text-white shadow-md'
                               : 'border border-gray-300 text-gray-600 hover:bg-gray-50'
