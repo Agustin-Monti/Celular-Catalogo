@@ -181,7 +181,7 @@ export function RepairServiceCard({ service, index = 0, variant = 'home' }: Repa
                   <h3 className="text-lg font-bold text-gray-900 leading-tight line-clamp-1">
                     {service.device_type}
                   </h3>
-                  <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">
+                  <p className="text-xs text-gray-600 mt-0.5 line-clamp-1">
                     {service.issue_type}
                   </p>
                 </div>
@@ -196,7 +196,7 @@ export function RepairServiceCard({ service, index = 0, variant = 'home' }: Repa
           <div className="flex items-center justify-between mb-4 pb-3 border-b border-gray-100">
             <div className="flex items-center gap-2">
               <RatingStars rating={4.5} size="sm" />
-              <span className="text-xs text-gray-400">(50)</span>
+              <span className="text-xs text-gray-500">(50)</span>
             </div>
             <div className="flex items-center gap-1 text-xs text-gray-500">
               <Shield className="w-3 h-3" />
@@ -230,7 +230,7 @@ export function RepairServiceCard({ service, index = 0, variant = 'home' }: Repa
             <div className="flex items-end justify-between mb-3">
               <div>
                 <div className="flex items-baseline gap-1">
-                  <p className="text-xs text-gray-400">*Precio sujeto a diagnóstico</p>
+                  <p className="text-xs text-gray-500 mt-1">*Precio sujeto a diagnóstico</p>
                 </div>
               </div>
             </div>
