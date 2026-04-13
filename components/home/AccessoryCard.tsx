@@ -88,13 +88,13 @@ export function AccessoryCard({ accessory }: AccessoryCardProps) {
           <h3 className="font-bold text-gray-900 line-clamp-1 mb-1 group-hover:text-[#0A2B4E] transition-colors">
             {accessory.name}
           </h3>
-          <p className="text-xs text-gray-500 mb-2">
+          <p className="text-xs text-gray-600 mb-2">
             {accessory.brand}
           </p>
           
           {/* Especificación rápida */}
           {accessory.specs?.compatible && (
-            <p className="text-xs text-gray-400 mb-2 flex items-center gap-1">
+            <p className="text-xs text-gray-500 mb-2 flex items-center gap-1">
               <Smartphone className="w-3 h-3" />
               {accessory.specs.compatible}
             </p>
@@ -104,11 +104,11 @@ export function AccessoryCard({ accessory }: AccessoryCardProps) {
           <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
             <div>
               <span className="text-xl font-bold text-[#0A2B4E]">
-                ${accessory.price.toLocaleString('es-MX')}
+                ${accessory.price.toLocaleString('es-AR')}
               </span>
               {accessory.original_price && (
-                <span className="text-xs text-gray-400 line-through ml-1">
-                  ${accessory.original_price.toLocaleString('es-MX')}
+                <span className="text-xs text-gray-500 line-through ml-1">
+                  ${accessory.original_price.toLocaleString('es-AR')}
                 </span>
               )}
             </div>
