@@ -118,7 +118,8 @@ export function Footer() {
             <div className="bg-gray-800 rounded-lg p-4 mb-4">
               <div className="aspect-w-16 aspect-h-9 mb-3">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.339123456789!2d-99.133123456789!3d19.432123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzU1LjYiTiA5OcKwMDcnNTkuMiJX!5e0!3m2!1ses!2smx!4v1234567890123!5m2!1ses!2smx"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3363.2672738267233!2d-59.35609126685707!3d-32.545711404279096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1776088092535!5m2!1ses!2sar"
+                  title="Ubicación de CC Reparaciones Móviles en Google Maps"
                   width="100%"
                   height="120"
                   style={{ border: 0, borderRadius: '0.5rem' }}
