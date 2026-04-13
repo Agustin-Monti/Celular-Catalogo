@@ -42,6 +42,7 @@ export default async function Home() {
       {/* Beneficios */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
+          <h2 className="sr-only">Ventajas de CC Reparaciones Móviles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center group">
