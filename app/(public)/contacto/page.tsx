@@ -88,7 +88,7 @@ export default function ContactoPage() {
       text: 'Av. Principal #123, Centro, CDMX',
       details: 'Entre calles Morelos y Juárez',
       color: '#FFC107',
-      link: 'https://maps.google.com/'
+      link: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3363.2672738267233!2d-59.35609126685707!3d-32.545711404279096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1776088092535!5m2!1ses!2sar'
     },
     { 
       icon: Phone, 
