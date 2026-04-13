@@ -191,18 +191,20 @@ export function BrandsCarousel({
         </div>
 
         {/* Indicadores de paginación */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-3 mt-8">
           {Array.from({ length: Math.ceil(brands.length / visibleItems) }).map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx * visibleItems)}
-              className={`h-2 rounded-full transition-all duration-300 ${
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center transition-all duration-300"
+              aria-label={`Ir a página ${idx + 1}`}
+            >
+              <span className={`h-2 rounded-full transition-all duration-300 ${
                 Math.floor(currentIndex / visibleItems) === idx
                   ? 'w-8 bg-[#0A2B4E]'
                   : 'w-2 bg-gray-300 hover:bg-gray-400'
-              }`}
-              aria-label={`Ir a página ${idx + 1}`}
-            />
+              }`} />
+            </button>
           ))}
         </div>
 
